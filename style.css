@@ -1,0 +1,22 @@
+.input_block {
+    display: flex;
+    flex-display: row;
+    flex-wrap: nowrap;
+}
+
+.input_block div {
+    width: 150px;
+}
+
+input[type="submit"] {
+    padding: 10px 15px;
+    border: 1px solid black;
+    background: transparent;
+    color: black;
+}
+
+select[name="transport"] {
+    width: 200px;
+    height: 38px;
+    padding: 10px 15px;
+}
